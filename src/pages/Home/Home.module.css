@@ -1,0 +1,44 @@
+.container {  
+  width: 100%;
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: .5fr .5fr 1fr 1fr 1fr .35fr;
+  grid-auto-columns: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "HERO HERO HERO"
+    "HERO HERO HERO"
+    "ABOUT ABOUT ABOUT"
+    "PRJCT PRJCT PRJCT"
+    "PRJCT PRJCT PRJCT"
+    "CNTCT CNTCT CNTCT";
+}
+
+.HERO { 
+  grid-area: HERO;
+  font-family: gtPressura;
+  color: white;
+  font-size: 7vw;
+  background: #2b3a2b;
+}
+
+.ABOUT { 
+  grid-area: ABOUT;
+  color: #2a2a2a;
+  text-align: left;
+  align-items: center;
+  font-size: 3vw;
+  padding-left: 2vw;
+  padding-right: 50%;
+}
+
+.PRJCT { 
+  grid-area: PRJCT; 
+}
+
+.CNTCT { 
+  grid-area: CNTCT; 
+  background: #2a2a2a;
+}
