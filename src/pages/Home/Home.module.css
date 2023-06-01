@@ -3,17 +3,16 @@
   color: white;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: .5fr .5fr 1fr 1fr 1fr .35fr;
+  grid-template-rows: .5fr  1fr 1fr 1fr .35fr;
   grid-auto-columns: 1fr;
   gap: 0px 0px;
   grid-auto-flow: row;
   grid-template-areas:
     "HERO HERO HERO"
-    "HERO HERO HERO"
-    "ABOUT ABOUT ABOUT"
+    "ABOUT ABOUT IMG"
     "PRJCT PRJCT PRJCT"
     "PRJCT PRJCT PRJCT"
-    "CNTCT CNTCT CNTCT";
+    "SKILLS SKILLS SKILLS";
 }
 
 .HERO { 
@@ -26,19 +25,39 @@
 
 .ABOUT { 
   grid-area: ABOUT;
-  color: #2a2a2a;
+  color: #353535;
   text-align: left;
   align-items: center;
   font-size: 3vw;
   padding-left: 2vw;
-  padding-right: 50%;
+  padding-top: 2.5vw;
+  padding-right: 25%;
+}
+.IMG {
+  grid-area: IMG;
+  align-items: center;
+  justify-items: center;
+  padding: 5vw
+}
+
+.IMG > img {
+  width: 30vw;
+  border-radius: 8px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
 
 .PRJCT { 
   grid-area: PRJCT; 
 }
 
-.CNTCT { 
-  grid-area: CNTCT; 
-  background: #2a2a2a;
+.SKILLS { 
+  grid-area: SKILLS; 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+a {
+  text-decoration: none;
+  color: #2a2a2a;
 }
