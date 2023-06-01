@@ -5,7 +5,10 @@
   font-size: 5vw;
   padding-left: 2vw;
   padding-top: 2.5vw;
-  padding-right: 25%;
+}
+
+.sklstitle > h1 {
+  margin: 0;
 }
 
 .sklsicons {

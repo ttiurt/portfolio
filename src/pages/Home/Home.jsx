@@ -1,4 +1,5 @@
 import Skills from '../../components/Skills/Skills'
+import Footer from '../../components/Footer/Footer'
 
 import styles from './Home.module.css'
 
@@ -16,6 +17,9 @@ const Home = () => {
       <div className={styles.PRJCT}></div>
       <div className={styles.SKILLS}>
         <Skills />
+      </div>
+      <div className={styles.FOOT}>
+        <Footer />
       </div>
     </div>
   )

@@ -16,5 +16,16 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
-  padding-bottom: 25vw;
+}
+
+::-webkit-scrollbar{
+  width: .5em;
+}
+
+::-webkit-scrollbar-track {
+  background: #2b3a2b;
+}
+
+::-webkit-scrollbar-thumb{
+  background: #435a43;
 }
