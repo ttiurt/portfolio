@@ -1,58 +1,76 @@
-.container {  
+.container { 
   width: 100%;
   color: white;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: .25fr  1fr 1fr 1fr .35fr .1fr;
+  grid-template-rows: 1fr 1fr 1fr .35fr;
   grid-auto-columns: 1fr;
   gap: 0px 0px;
-  grid-auto-flow: row;
+  grid-auto-flow: column;
   grid-template-areas:
-    "HERO HERO HERO"
-    "ABOUT ABOUT IMG"
+    "ABOUT ABOUT ABOUT"
     "PRJCT PRJCT PRJCT"
     "PRJCT PRJCT PRJCT"
-    "SKILLS SKILLS SKILLS"
-    "FOOT FOOT FOOT";
+    "SKILLS SKILLS SKILLS";
+  
 }
 
-.HERO { 
-  grid-area: HERO;
-  font-family: gtPressura;
-  color: white;
-  font-size: 7vw;
-  background: #2b3a2b;
-}
 
-.HERO > h1 {
-  margin: 3vw;
-}
 
 .ABOUT { 
+  font-family: "adelle", serif;
+  font-weight: 400;
+  font-style: italic;
   grid-area: ABOUT;
+  display: flex;
   color: #353535;
-  text-align: left;
-  align-items: center;
+  text-align: right;
   font-size: 3vw;
-  padding-left: 2vw;
-  padding-top: 2.5vw;
-  padding-right: 25%;
-}
-.IMG {
-  grid-area: IMG;
-  align-items: center;
-  justify-items: center;
-  padding: 5vw
+  margin-top: 4vw;
+  padding: 2vw 2vw 0 7.5vw;
 }
 
-.IMG > img {
+.ABOUTtitle {
+  font-family: gtPressura;
+  font-style: normal;
+  color: white;
+  font-size: 2.5vw;
+}
+
+.ABOUTtitle > h1 {
+  margin: 0;
+}
+
+.ABOUTmain {
+  display: flex;
+  flex-direction: column;
+  padding-right: 4vw;
+}
+
+.ABOUTmain > p {
+  align-self: start;
+  font-size: 2vw;
+  padding-left: 15vw;
+  margin: 0;
+}
+
+.ABOUTimg > img {
   width: 30vw;
-  border-radius: 8px;
-  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  /* border-radius: 8px; */
+  box-shadow: rgba(40, 40, 40, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 
 .PRJCT { 
   grid-area: PRJCT; 
+  display: flex;
+}
+
+.PRJCT > h1 {
+  font-family: gtPressura;
+  font-size: 6vw;
+  display: flex;
+  padding-left: 2vw;
+  margin: 0;
 }
 
 .SKILLS { 
@@ -60,10 +78,6 @@
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-}
-
-.FOOT {
-  grid-area: FOOT;
-  padding-top: 7.5vw;
+  padding-bottom: 10vw;
 }
 

@@ -1,8 +1,8 @@
-import styles from './Footer.module.css'
+import styles from './Nav.module.css'
 
-const Footer = () => {
+const Nav = () => {
   return (
-    <div className={styles.shoe}>
+    <div className={styles.hat}>
       <div className={styles.links}>
         <p><a href="https://www.linkedin.com/in/truittzach/" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
         <p><a href="" target="_blank" rel="noopener noreferrer">Resume</a></p>
@@ -13,4 +13,4 @@ const Footer = () => {
   )
 }
 
-export default Footer
+export default Nav
