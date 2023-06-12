@@ -1,4 +1,5 @@
 import Skills from '../../components/Skills/Skills'
+import MyProjects from '../../components/MyProjects/MyProject'
 
 import styles from './Home.module.css'
 
@@ -12,14 +13,14 @@ const Home = () => {
             <div className={styles.ABOUTtitle}>
               <h1>who even is he</h1>
             </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus dolor provident iure quasi nihil dolorem ipsa eum modi inventore, voluptate ad libero voluptas. Sint quod impedit laudantium accusamus saepe odit!</p>
+            <p>I am a fullstack developer who is looking to work on the front end. I have learned and worked with a number of coding languages, including Javascript, HTML, CSS, React and Typescript.</p>
           </div>
           <div className={styles.ABOUTimg}>
             <img src='/headshot.jpg' alt="Me." />
           </div>
         </div>
         <div className={styles.PRJCT}>
-          <h1>thingys</h1>
+          <MyProjects />
         </div>
         <div className={styles.SKILLS}>
           <Skills />
