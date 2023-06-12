@@ -11,7 +11,8 @@
     "ABOUT ABOUT ABOUT"
     "PRJCT PRJCT PRJCT"
     "PRJCT PRJCT PRJCT"
-    "SKILLS SKILLS SKILLS";
+    "SKILLS SKILLS SKILLS"
+    "MOREME MOREME MOREME";
   
 }
 
@@ -81,3 +82,10 @@
   padding-bottom: 10vw;
 }
 
+.MOREME { 
+  grid-area: MOREME; 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-bottom: 10vw;
+}

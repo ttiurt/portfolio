@@ -12,6 +12,10 @@
 }
 
 .thngLeft {  
+  margin-bottom: 5vw;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  padding-top: 2.5vw;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
@@ -19,19 +23,50 @@
   gap: 0px 0px;
   grid-auto-flow: row;
   grid-template-areas:
-    "TLimg TLinfo TLinfo"
-    "TLimg TLinfo TLinfo";
+    "TLimg TLinfo ."
+    "TLimg TLinfo .";
 }
 
 .TLimg { 
   grid-area: TLimg;
+  place-self: center center;
+}
+
+.TLimg > img {
+  width: 35vw;
+  border-radius: 4px;
+  box-shadow: rgba(40, 40, 40, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 
 .TLinfo { 
+  padding-left: 1vw;
   grid-area: TLinfo;
+  justify-self: start;
+  align-self: start;
+  color: #353535;
+  text-align: left;
+  font-family: "adelle", serif;
+  font-weight: 400;
+}
+
+.TLinfo > h1 {
+  margin: 0;
+}
+
+.TLinfo > p {
+  font-size: 1.35vw;
+  margin: 0;
+}
+
+.TLinfo > a {
+  font-size: 1.5vw;
 }
 
 .thngRight {
+  margin-bottom: 5vw;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  padding-top: 2.5vw;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
@@ -39,14 +74,41 @@
   gap: 0px 0px;
   grid-auto-flow: row;
   grid-template-areas:
-    "TRimg TRinfo TRinfo"
-    "TRimg TRinfo TRinfo";
+    ". TRinfo TRimg"
+    ". TRinfo TRimg";
 }
 
 .TRimg { 
   grid-area: TRimg;
+  place-self: center center;
+}
+
+.TRimg > img {
+  width: 35vw;
+  border-radius: 4px;
+  box-shadow: rgba(40, 40, 40, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 
 .TRinfo { 
+  padding-right: 1vw;
   grid-area: TRinfo;
+  justify-self: start;
+  align-self: start;
+  color: #353535;
+  text-align: right;
+  font-family: "adelle", serif;
+  font-weight: 400;
+}
+
+.TRinfo > h1 {
+  margin: 0;
+}
+
+.TRinfo > p {
+  font-size: 1.35vw;
+  margin: 0;
+}
+
+.TRinfo > a {
+  font-size: 1.5vw;
 }
