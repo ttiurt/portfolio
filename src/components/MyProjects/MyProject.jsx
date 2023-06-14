@@ -22,7 +22,6 @@ const MyProjects = () => {
           <a href="https://github.com/ttiurt/laplogger-face" target="_blank" rel="noopener noreferrer">Github</a>
         </div>
       </div>
-      <br />
       <div className={styles.thngRight}>
         <div className={styles.TRimg}>
           <img src="/BBbanner.png" alt="BarkBase" />

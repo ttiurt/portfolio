@@ -59,3 +59,10 @@
 .mmB5 { 
   grid-area: mmB5; 
 }
+
+
+@media (max-width: 1080px){
+  .mmCntnr {
+    display: none;
+  }
+}

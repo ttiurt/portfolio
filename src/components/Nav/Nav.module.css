@@ -26,3 +26,34 @@ a {
   font-family: gtPressura;
   margin: 0;
 }
+
+@media (max-width: 1080px) {
+  .hat {
+    display: flex;
+    z-index: 10;
+    justify-content: right;
+  }
+  
+  .links {
+    border-radius: 0 0 0 25px ;
+    width: 12vw;
+    font-family: gtPessura;
+    padding-right: 1.5vw;
+    align-items: end;
+    text-align: right;
+    font-size: 3vw;
+    background: #2b3a2b;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  .links > p {
+    font-family: gtPressura;
+    margin: 0;
+  }
+}

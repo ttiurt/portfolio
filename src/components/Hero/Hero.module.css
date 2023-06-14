@@ -18,3 +18,26 @@
   position: fixed;
   right: 0;
 }
+
+@media (max-width: 1080px) {
+  .HERO { 
+    display: flex;
+    font-family: gtPressura;
+    color: white;
+    font-size: 6vw;
+    background: #2b3a2b;
+    width: 100%;
+    justify-content: space-between;
+  }
+  
+  .HERO > h1 {
+    margin: 0;
+    padding-left: 1vw;
+    padding-bottom: 1vw;
+  }
+  
+  .nav {
+    position: fixed;
+    right: 0;
+  }
+}
