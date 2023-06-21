@@ -50,6 +50,9 @@
 }
 
 .ABOUTmain > p {
+  font-family: "franklin-gothic-atf", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   align-self: start;
   font-size: 3.25vw;
   padding-left: 15vw;
@@ -120,7 +123,7 @@
     font-size: 3vw;
     margin-top: 4vw;
     padding: 2vw 2vw 0 7.5vw;
-    flex-direction: column;
+    flex-direction: row-reverse;
   }
   
   .ABOUTtitle {
@@ -148,10 +151,6 @@
   }
   
   .ABOUTimg {
-    display: none;
-  }
-
-  .ABOUT > img {
     display: none;
   }
 }

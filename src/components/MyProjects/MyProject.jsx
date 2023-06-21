@@ -42,7 +42,7 @@ const MyProjects = () => {
           <img src="/CDLFGbanner.png" alt="CDLFG" />
         </div>
         <div className={styles.TLinfo}>
-          <h1>CDLFG</h1>
+          <h1>C.D.L.F.G.</h1>
           <p>This forum is for easily finding a team to help you grind through the ranked ladder. On this forum you will be able to navigate through multiple pages where you are able to view posts people have made and respond to them. Users are also given the ability to make their own post.</p>
           <br />
           <p>JavaScript, CSS, MongoDB, Google OAuth</p>
