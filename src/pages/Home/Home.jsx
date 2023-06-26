@@ -14,7 +14,7 @@ const Home = () => {
             <div className={styles.ABOUTtitle}>
               <h1>who even is he</h1>
             </div>
-            <p>I am a fullstack developer with an high interest in the front end. I have learned and worked with a number of coding languages, including Javascript, HTML, CSS, React and Typescript.</p>
+            <p>I am a fullstack developer with a high interest in the front end. I have learned and worked with a number of coding languages, including Javascript, HTML, CSS, React and Typescript.</p>
           </div>
           <div className={styles.ABOUTimg}>
             <img src='/headshot.jpg' alt="Me." />
