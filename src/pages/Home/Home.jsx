@@ -1,6 +1,6 @@
 import Skills from '../../components/Skills/Skills'
 import MyProjects from '../../components/MyProjects/MyProject'
-import MoreMe from '../../components/MoreMe/MoreMe'
+// import MoreMe from '../../components/MoreMe/MoreMe'
 
 import styles from './Home.module.css'
 
@@ -26,9 +26,9 @@ const Home = () => {
         <div className={styles.SKILLS}>
           <Skills />
         </div>
-        <div className={styles.MOREME}>
+        {/* <div className={styles.MOREME}>
           <MoreMe />
-        </div>
+        </div> */}
       </div>
     </>
   )
