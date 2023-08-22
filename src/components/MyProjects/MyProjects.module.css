@@ -27,23 +27,12 @@
     "TLimg TLinfo .";
 }
 
-.TLimg { 
-  grid-area: TLimg;
-  place-self: center center;
-}
-
-.TLimg > img {
-  width: 35vw;
-  border-radius: 4px;
-  box-shadow: rgba(40, 40, 40, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-}
-
 .TLinfo { 
   padding-left: 1vw;
   grid-area: TLinfo;
   justify-self: start;
   align-self: start;
-  color: #353535;
+  color: #ffffff;
   text-align: left;
   font-family: "franklin-gothic-atf", sans-serif;
   font-weight: 400;
@@ -61,6 +50,7 @@
 
 .TLinfo > a {
   font-size: 1.5vw;
+  color: #9f7ac6;
 }
 
 .thngRight {
@@ -79,23 +69,12 @@
     ". TRinfo TRimg";
 }
 
-.TRimg { 
-  grid-area: TRimg;
-  place-self: center center;
-}
-
-.TRimg > img {
-  width: 35vw;
-  border-radius: 4px;
-  box-shadow: rgba(40, 40, 40, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-}
-
 .TRinfo { 
   padding-right: 1vw;
   grid-area: TRinfo;
   justify-self: start;
   align-self: start;
-  color: #353535;
+  color: #ffffff;
   text-align: right;
   font-family: "franklin-gothic-atf", sans-serif;
   font-weight: 400;
@@ -113,6 +92,7 @@
 
 .TRinfo > a {
   font-size: 1.5vw;
+  color: #9f7ac6;
 }
 
 @media (max-width: 1080px) {

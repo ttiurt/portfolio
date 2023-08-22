@@ -9,9 +9,6 @@ const Home = () => {
   return( 
     <>
       <div className={styles.container}>
-        <div className={styles.ABOUT}>
-          
-        </div>
         <div className={styles.PRJCT}>
           <MyProjects />
         </div>
