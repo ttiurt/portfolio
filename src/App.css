@@ -4,7 +4,10 @@
 }
 
 :root {
-  background: #c1b59f;
+  background: url('/greyscalebg.png');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100%;
   text-align: center;
 }
 
@@ -21,9 +24,9 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  background: #2b3a2b;
+  background: #292929;
 }
 
 ::-webkit-scrollbar-thumb{
-  background: #435a43;
+  background: #404040;
 }

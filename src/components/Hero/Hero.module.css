@@ -2,10 +2,9 @@
   display: flex;
   font-family: gtPressura;
   color: white;
-  font-size: 4.5vw;
-  background: #2b3a2b;
+  font-size: 10rem;
   width: 100%;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .HERO > h1 {
