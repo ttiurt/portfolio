@@ -1,10 +1,6 @@
-//import Skills from '../../components/Skills/Skills'
-import MyProjects from '../../components/MyProjects/MyProject'
-// import MoreMe from '../../components/MoreMe/MoreMe'
+//import MyProjects from '../../components/MyProjects/MyProject'
 
 import styles from './Home.module.css'
-
-
 const Home = () => {
   return( 
     <>

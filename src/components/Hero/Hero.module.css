@@ -1,5 +1,6 @@
 .HERO { 
   display: flex;
+  flex-direction: column;
   font-family: gtPressura;
   color: white;
   font-size: 10rem;
@@ -12,9 +13,7 @@
 }
 
 .nav {
-  position: fixed;
-  right: 0;
-  bottom: 0;
+  
 }
 
 @media (max-width: 1080px) {

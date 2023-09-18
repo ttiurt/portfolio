@@ -1,59 +1,58 @@
-.hat {
-  display: flex;
-  z-index: 10;
-  justify-content: right;
+.links {  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-auto-columns: 1fr;
+  grid-auto-rows: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: column;
+  grid-template-areas:
+    "linked resume github email";
+  font-size: 4.5rem;
 }
 
-.links {
-  border-radius: 0 0 0 25px ;
-  width: 9vw;
-  font-family: gtPessura;
-  padding-right: 1.5vw;
-  align-items: end;
-  text-align: right;
-  font-size: 1.5rem;
-  background: #20202000;
-  padding-top: 1vw;
-  padding-bottom: 1vw;
+.linked { 
+  grid-area: linked; 
 }
 
-a {
+.resume { 
+  grid-area: resume; 
+}
+
+.github { 
+  grid-area: github; 
+}
+
+.email { 
+  grid-area: email; 
+}
+
+
+/* a {
   text-decoration: none;
   color: #ffffff;
+} */
+
+a {
+	color: #ffffff;
+  position: relative;
+  text-decoration: none;
 }
 
-.links > p {
-  font-family: gtPressura;
-  margin: 0;
+a::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  border-radius: 4px;
+  background-color: #9f7ac6;
+  bottom: 0;
+  left: 0;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform .3s ease-in-out;
 }
 
-@media (max-width: 1080px) {
-  .hat {
-    display: flex;
-    z-index: 10;
-    justify-content: right;
-  }
-  
-  .links {
-    border-radius: 0 0 0 25px ;
-    width: 12vw;
-    font-family: gtPessura;
-    padding-right: 1.5vw;
-    align-items: end;
-    text-align: right;
-    font-size: 3vw;
-    background: #292929;
-    padding-top: 1vw;
-    padding-bottom: 1vw;
-  }
-  
-  a {
-    text-decoration: none;
-    color: #ffffff;
-  }
-  
-  .links > p {
-    font-family: gtPressura;
-    margin: 0;
-  }
+a:hover::before {
+  transform-origin: left;
+  transform: scaleX(1);
 }

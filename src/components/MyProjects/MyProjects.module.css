@@ -4,7 +4,7 @@
 
 .thngsTitle{
   font-family: gtPressura;
-  text-align: center;
+  text-align: left;
   align-items: center;
   font-size: 1.5vw;
   padding-left: 2vw;
@@ -14,4 +14,3 @@
 .thngsTitle > h1 {
   margin: 0;
 }
-
