@@ -5,7 +5,7 @@ const MyProjects = () => {
   return (
     <div className={styles.thngsCntnr}>
       <div className={styles.thngsTitle}>
-        <h1>thingys</h1>
+        <h1>THINGS I'VE MADE</h1>
       </div>
       <div className={styles.thngLeft}>
         <div className={styles.TLinfo}>
@@ -18,8 +18,8 @@ const MyProjects = () => {
           <a href="https://github.com/ttiurt/laplogger-face" target="_blank" rel="noopener noreferrer">Github</a>
         </div>
       </div>
-      <div className={styles.thngRight}>
-        <div className={styles.TRinfo}>
+      <div className={styles.thngLeft}>
+        <div className={styles.TLinfo}>
           <h1>BarkBase</h1>
           <br />
           <p>JavaScript, React, CSS, MongoDB, MUI</p>
@@ -40,8 +40,8 @@ const MyProjects = () => {
           <a href="https://github.com/ttiurt/cdlfg-forum" target="_blank" rel="noopener noreferrer">Github</a>
         </div>
       </div>
-      <div className={styles.thngRight}>
-        <div className={styles.TRinfo}>
+      <div className={styles.thngLeft}>
+        <div className={styles.TLinfo}>
           <h1>Truitt's Sports Trivia</h1>
           <br />
           <p>JavaScript, HTML, CSS</p>

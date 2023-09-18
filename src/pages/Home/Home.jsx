@@ -9,12 +9,7 @@ const Home = () => {
   return( 
     <>
       <div className={styles.container}>
-        <div className={styles.PRJCT}>
-          <MyProjects />
-        </div>
-        {/* <div className={styles.SKILLS}>
-          <Skills />
-        </div> */}
+        
       </div>
     </>
   )
