@@ -7,7 +7,7 @@
   grid-auto-flow: column;
   grid-template-areas:
     "linked resume github email";
-  font-size: 4.5rem;
+  font-size: 4.25rem;
 }
 
 .linked { 
@@ -26,16 +26,11 @@
   grid-area: email; 
 }
 
-
-/* a {
-  text-decoration: none;
-  color: #ffffff;
-} */
-
 a {
 	color: #ffffff;
   position: relative;
   text-decoration: none;
+  cursor: url(/crosscurs.png), auto;
 }
 
 a::before {
@@ -55,4 +50,5 @@ a::before {
 a:hover::before {
   transform-origin: left;
   transform: scaleX(1);
+  cursor: url(/crosscurs.png), auto;
 }
