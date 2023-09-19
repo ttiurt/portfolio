@@ -16,13 +16,6 @@ body {
 }
 
 ::-webkit-scrollbar{
-  width: .5em;
-}
-
-::-webkit-scrollbar-track {
-  background: #292929;
-}
-
-::-webkit-scrollbar-thumb{
-  background: #404040;
+  display: none;
+  width: 0px;
 }

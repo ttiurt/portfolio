@@ -16,3 +16,20 @@
   
 }
 
+@media (max-width: 768px) {
+  .HERO {
+    font-size: 7rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .HERO {
+    font-size: 3.5rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .HERO {
+    font-size: 2.75rem;
+  }
+}
