@@ -6,6 +6,8 @@
 :root {
   background: #151515;
   text-align: center;
+  scrollbar-width: none;
+  cursor: url(/crosscurs.png), auto;
 }
 
 body {

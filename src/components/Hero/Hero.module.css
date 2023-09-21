@@ -1,11 +1,10 @@
 .HERO { 
-  
   font-family: gtPressura;
   color: white;
   font-size: 8.5rem;
   width: 100vw;
-  justify-content: center;
-  cursor: url(/crosscurs.png), auto;
+  height: 100vh;
+  scroll-snap-align: center;
 }
 
 .HERO > h1 {
@@ -13,7 +12,8 @@
 }
 
 .nav {
-  
+  margin: 0 auto;
+  justify-content: center;
 }
 
 @media (max-width: 768px) {
