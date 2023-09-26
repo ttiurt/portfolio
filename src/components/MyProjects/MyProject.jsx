@@ -11,38 +11,49 @@ const MyProjects = () => {
       <div className={styles.projects}>
         <div className={styles.thng1}>
           <div className={styles.thngInfo}>
-            <h1>Lap Logger</h1>
-            <p>TypeScript, JavaScript, React, CSS, MUI</p>
-            <a href="https://thelaplogger.com/" target="_blank" rel="noopener noreferrer">Deployment</a>
-            <br />
-            <a href="https://github.com/ttiurt/laplogger-face" target="_blank" rel="noopener noreferrer">Github</a>
+            <h1 className={styles.projName}>Lap Logger</h1>
+            <p className={styles.projTools}>TypeScript, JavaScript, React, CSS, MUI</p>
+            <div className={styles.projLinks}>
+              <a href="https://thelaplogger.com/" target="_blank" rel="noopener noreferrer">Deployment</a>
+              <br />
+              <a href="https://github.com/ttiurt/laplogger-face" target="_blank" rel="noopener noreferrer">Github</a>
+            </div>
           </div>
         </div>
         <div className={styles.thng2}>
           <div className={styles.thngInfo}>
-            <h1>BarkBase</h1>
-            <p>JavaScript, React, CSS, MongoDB, MUI</p>
-            <a href="https://bark-base.netlify.app/" target="_blank" rel="noopener noreferrer">Deployment</a>
-            <br />
-            <a href="https://github.com/AndrewRentschler/barkbase-front-end" target="_blank" rel="noopener noreferrer">Github</a>
+            <h1 className={styles.projName}>BarkBase</h1>
+            <p className={styles.projTools}>JavaScript, React, CSS, MongoDB, MUI</p>
+            <div className={styles.projLinks}>
+              <a href="https://bark-base.netlify.app/" target="_blank" rel="noopener noreferrer">Deployment</a>
+              <br />
+              <a href="https://github.com/AndrewRentschler/barkbase-front-end" target="_blank" rel="noopener noreferrer">Github</a>
+            </div>
+            
           </div>
         </div>
         <div className={styles.thng3}>
           <div className={styles.thngInfo}>
-            <h1>C.D.L.F.G.</h1>
-            <p>JavaScript, CSS, MongoDB, Google OAuth</p>
-            <a href="https://cdlfg.fly.dev/home" target="_blank" rel="noopener noreferrer">Deployment</a>
-            <br />
-            <a href="https://github.com/ttiurt/cdlfg-forum" target="_blank" rel="noopener noreferrer">Github</a>
+            <h1 className={styles.projName}>C.D.L.F.G.</h1>
+            <p className={styles.projTools}>JavaScript, CSS, MongoDB, Google OAuth</p>
+            <div className={styles.projLinks}>
+              <a href="https://cdlfg.fly.dev/home" target="_blank" rel="noopener noreferrer">Deployment</a>
+              <br />
+              <a href="https://github.com/ttiurt/cdlfg-forum" target="_blank" rel="noopener noreferrer">Github</a>
+            </div>
+            
           </div>
         </div>
         <div className={styles.thng4}>
           <div className={styles.thngInfo}>
-            <h1>Truitt's Sports Trivia</h1>
-            <p>JavaScript, HTML, CSS</p>
-            <a href="https://truitts-trivia.netlify.app/" target="_blank" rel="noopener noreferrer">Deployment</a>
-            <br />
-            <a href="https://github.com/ttiurt/truitts-sports-trivia" target="_blank" rel="noopener noreferrer">Github</a>
+            <h1 className={styles.projName}>Truitt's Sports Trivia</h1>
+            <p className={styles.projTools}>JavaScript, HTML, CSS</p>
+            <div className={styles.projLinks}>
+              <a href="https://truitts-trivia.netlify.app/" target="_blank" rel="noopener noreferrer">Deployment</a>
+              <br />
+              <a href="https://github.com/ttiurt/truitts-sports-trivia" target="_blank" rel="noopener noreferrer">Github</a>
+            </div>
+            
           </div>
         </div>
       </div>
