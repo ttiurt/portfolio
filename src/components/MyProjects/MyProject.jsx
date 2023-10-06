@@ -5,7 +5,7 @@ const MyProjects = () => {
   return (
     <div className={styles.thngsCntnr}>
       <div className={styles.thngsTitle}>
-        <h1>THINGS</h1>
+        <h1>MY THINGS</h1>
       </div>
       <br />
       <div className={styles.projects}>

@@ -16,6 +16,12 @@
   justify-content: center;
 }
 
+@media (max-width: 820px) {
+  .HERO {
+    font-size: 7.5rem;
+  }
+}
+
 @media (max-width: 768px) {
   .HERO {
     font-size: 7rem;
