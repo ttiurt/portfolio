@@ -5,7 +5,7 @@ const MyProjects = () => {
   return (
     <div className={styles.thngsCntnr}>
       <div className={styles.thngsTitle}>
-        <h1>THINGS I'VE MADE</h1>
+        <h1>THINGS</h1>
       </div>
       <br />
       <div className={styles.projects}>
@@ -29,7 +29,6 @@ const MyProjects = () => {
               <br />
               <a href="https://github.com/AndrewRentschler/barkbase-front-end" target="_blank" rel="noopener noreferrer">Github</a>
             </div>
-            
           </div>
         </div>
         <div className={styles.thng3}>
@@ -41,19 +40,28 @@ const MyProjects = () => {
               <br />
               <a href="https://github.com/ttiurt/cdlfg-forum" target="_blank" rel="noopener noreferrer">Github</a>
             </div>
-            
           </div>
         </div>
         <div className={styles.thng4}>
           <div className={styles.thngInfo}>
-            <h1 className={styles.projName}>Truitt's Sports Trivia</h1>
+            <h1 className={styles.projName}>Truitt's Trivia</h1>
             <p className={styles.projTools}>JavaScript, HTML, CSS</p>
             <div className={styles.projLinks}>
               <a href="https://truitts-trivia.netlify.app/" target="_blank" rel="noopener noreferrer">Deployment</a>
               <br />
               <a href="https://github.com/ttiurt/truitts-sports-trivia" target="_blank" rel="noopener noreferrer">Github</a>
             </div>
-            
+          </div>
+        </div>
+        <div className={styles.thng5}>
+          <div className={styles.thngInfo}>
+            <h1 className={styles.projName}>GAMUT</h1>
+            <p className={styles.projTools}>JavaScript, React, CSS, HTML</p>
+            <div className={styles.projLinks}>
+              <a href="https://gamutstudio.co/" target="_blank" rel="noopener noreferrer">Deployment</a>
+              <br />
+              <a href="https://github.com/ttiurt/GAMUT" target="_blank" rel="noopener noreferrer">Github</a>
+            </div>
           </div>
         </div>
       </div>
