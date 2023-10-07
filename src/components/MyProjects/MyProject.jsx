@@ -12,7 +12,7 @@ const MyProjects = () => {
         <div className={styles.thng1}>
           <div className={styles.thngInfo}>
             <h1 className={styles.projName}>Lap Logger</h1>
-            <p className={styles.projTools}>TypeScript, JavaScript, React, CSS, MUI</p>
+            {/* <p className={styles.projTools}>TypeScript, JavaScript, React, CSS, MUI</p> */}
             <div className={styles.projLinks}>
               <a href="https://thelaplogger.com/" target="_blank" rel="noopener noreferrer">Deployment</a>
               <br />
@@ -23,7 +23,7 @@ const MyProjects = () => {
         <div className={styles.thng2}>
           <div className={styles.thngInfo}>
             <h1 className={styles.projName}>BarkBase</h1>
-            <p className={styles.projTools}>JavaScript, React, CSS, MongoDB, MUI</p>
+            {/* <p className={styles.projTools}>JavaScript, React, CSS, MongoDB, MUI</p> */}
             <div className={styles.projLinks}>
               <a href="https://bark-base.netlify.app/" target="_blank" rel="noopener noreferrer">Deployment</a>
               <br />
@@ -34,7 +34,7 @@ const MyProjects = () => {
         <div className={styles.thng3}>
           <div className={styles.thngInfo}>
             <h1 className={styles.projName}>C.D.L.F.G.</h1>
-            <p className={styles.projTools}>JavaScript, CSS, MongoDB, Google OAuth</p>
+            {/* <p className={styles.projTools}>JavaScript, CSS, MongoDB, Google OAuth</p> */}
             <div className={styles.projLinks}>
               <a href="https://cdlfg.fly.dev/home" target="_blank" rel="noopener noreferrer">Deployment</a>
               <br />
@@ -45,7 +45,7 @@ const MyProjects = () => {
         <div className={styles.thng4}>
           <div className={styles.thngInfo}>
             <h1 className={styles.projName}>Truitt's Trivia</h1>
-            <p className={styles.projTools}>JavaScript, HTML, CSS</p>
+            {/* <p className={styles.projTools}>JavaScript, HTML, CSS</p> */}
             <div className={styles.projLinks}>
               <a href="https://truitts-trivia.netlify.app/" target="_blank" rel="noopener noreferrer">Deployment</a>
               <br />
@@ -56,7 +56,7 @@ const MyProjects = () => {
         <div className={styles.thng5}>
           <div className={styles.thngInfo}>
             <h1 className={styles.projName}>GAMUT</h1>
-            <p className={styles.projTools}>JavaScript, React, CSS, HTML</p>
+            {/* <p className={styles.projTools}>JavaScript, React, CSS, HTML</p> */}
             <div className={styles.projLinks}>
               <a href="https://gamutstudio.co/" target="_blank" rel="noopener noreferrer">Deployment</a>
               <br />
