@@ -1,7 +1,6 @@
 .abtCntnr {
   width: 100vw;
   height: 100vh;
-  scroll-snap-align: center;
   color: white;
   display: grid;
   grid-template-columns: 1fr;
@@ -30,7 +29,7 @@
 }
 
 .abtText > p {
-  font-size: 4.25rem;
+  font-size: 3.5vw;
   padding: 0 1rem;
 }
 
