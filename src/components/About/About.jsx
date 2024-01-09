@@ -7,7 +7,7 @@ const About = () => {
         <h1>ABOUT</h1>
       </div>
       <div className={styles.abtText}>
-        <p>I am a full stack developer based out of Richmond, Virginia with an interest in the front end. Currently I am working on freelance projects as needed while also actively learning C++ and getting familiar with game engines such as Unreal in my free time.</p>
+        <p>I am a full stack developer based out of Richmond, Virginia with an interest in the front end. Currently I am working on freelance projects as needed while also actively learning new languages such as C# and C++ and getting familiar with game engines such as Unreal in my free time.</p>
       </div>
     </div>
   )
