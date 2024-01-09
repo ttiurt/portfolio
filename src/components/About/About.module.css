@@ -20,7 +20,7 @@
   text-align: center;
   align-items: center;
   font-size: 4vw;
-  padding-top: 3vw;
+  padding-top: 5.5vw;
   align-items: center;
 }
 
@@ -29,7 +29,7 @@
 }
 
 .abtText > p {
-  font-size: 3.5vw;
+  font-size: 4rem;
   padding: 0 1rem;
 }
 

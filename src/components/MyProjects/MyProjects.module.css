@@ -10,7 +10,7 @@
   align-items: center;
   font-size: 4vw;
   padding-left: 2vw;
-  padding-top: 2.5vw;
+  padding-top: 7.5vw;
 }
 
 .thngsTitle > h1 {
@@ -30,6 +30,7 @@
     "thng1 . thng2"
     ". thng5 ."
     "thng3 . thng4";
+  padding-bottom: 5vh;
 }
 
 .thng1 { 
